@@ -1,0 +1,19 @@
+{
+  "name": "es6-electron-bootstrap",
+  "version": "0.0.1",
+  "description": "ES6 Electron App",
+  "main": "./start",
+  "scripts": {
+    "test": "./start"
+  },
+  "author": "Sekeol Kim",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "electron": "^1.7.10",
+    "jade": "^1.11.0",
+    "lodash": "^4.17.4",
+    "stylus": "^0.54.5",
+    "stylus-reset": "0.0.1"
+  }
+}
