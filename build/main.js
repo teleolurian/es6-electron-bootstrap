@@ -30,7 +30,7 @@ class CoreApp {
   loadTemplate(template_name){
     if (!(/\.html?$/.test(template_name))) template_name += '.html'
     this.window.loadURL(url.format({
-      pathname: path.join(this.root, 'templates', template_name),
+      pathname: path.join(this.root, template_name),
       protocol: 'file:',
       slashes: true
     }))

@@ -4,5 +4,10 @@ head
   title Electron App
   link(href="styles/main.css" type="text/css" rel="stylesheet")
 body
-  div#app-main
+  #app-main
     h1#app Electron App
+    
+    div(class="placeholder" data-size="50x80")
+  script(type="text/javascript").
+    startApp = require('./scripts/app.js')
+    document.addEventListener("DOMContentLoaded", startApp)

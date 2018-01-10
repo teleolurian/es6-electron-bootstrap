@@ -1,9 +1,9 @@
 #!/bin/bash
 rm -rf ./build/styles
 rm -rf ./build/scripts
-rm -rf ./build/templates
+rm -rf ./build/*.htm*
 
 mkdir ./build/styles
 ./node_modules/.bin/stylus -o ./build/styles ./app/styles/main.styl
-./node_modules/.bin/jade -o ./build/templates ./app/templates
+./node_modules/.bin/jade -o ./build ./app/templates
 cp -r ./app/scripts ./build/scripts
