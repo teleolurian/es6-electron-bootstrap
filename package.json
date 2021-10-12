@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.5.1",
-    "electron": "^1.7.10",
+    "electron": "^11.5.0",
     "jade": "^1.11.0",
     "lodash": "^4.17.13",
     "stylus": "^0.54.5",
